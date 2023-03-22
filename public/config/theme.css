@@ -1,0 +1,19 @@
+:root {
+  --primary: #121212;
+  --primary-text: linear-gradient(to right, #FFD194, #D1913C);;
+  --secondary: #7E8987;
+  --secondary-text: #ffffff;
+  --accent:  #4B4A67;
+  --accent-text: #ffffff;
+
+  --light-pink: #EEAFCE;
+  --pink: #e54592;
+  --blue: #2165B0;
+
+  /* --yellow: #f9ea16;
+  --brownish: #985e32;
+
+  --dark-blue: #0C0D17;
+
+  --gradient-yellow: linear-gradient(to bottom, #FFD439, #FF7A00);   */
+}

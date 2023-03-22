@@ -1,0 +1,19 @@
+{
+    "CONTRACT_ADDRESS": "",
+    "SCAN_LINK": "https://rinkeby.etherscan.io/token/",
+    "NETWORK": {
+      "NAME": "Rinkeby Test Network",
+      "SYMBOL": "ETH",
+      "ID": 4
+    },
+    "NFT_NAME": "Token for Staking",
+    "SYMBOL": "TFS",
+    "MAX_SUPPLY": 1000000000,
+    "WEI_COST": 100000000000000,
+    "DISPLAY_COST": 0.01,
+    "GAS_LIMIT": 285000,
+    "MARKETPLACE": "Opensea",
+    "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/",
+    "SHOW_BACKGROUND": false
+  }
+  

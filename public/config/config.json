@@ -1,0 +1,21 @@
+{
+  "CONTRACT_ADDRESS": "0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8",
+  "SCAN_LINK": "https://etherscan.io/0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8",
+  "NETWORK": {
+    "NAME": "Ethereum Mainnet",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "Booby Birds",
+  "SYMBOL": "BB",
+  "MAX_SUPPLY": 10,
+  "WEI_COST": 35000000000000000,
+  "WEI_COST_WL": 30000000000000000,
+  "DISPLAY_COST": 0.035,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/boobybirdsnft",
+  "SHOW_BACKGROUND": false,
+  "CONTRACT_ADDRESS_NFT": "",
+  "CONTRACT_ADDRESS_STAKING": ""
+}
