@@ -6,11 +6,6 @@ import store from "./redux/store";
 import { Provider } from "react-redux";
 import "./styles/Styles.scss";
 import { BrowserRouter } from 'react-router-dom';
-
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
 import { getDefaultWallets, RainbowKitProvider, ConnectButton } from "@rainbow-me/rainbowkit";
 import { chain, configureChains, createClient, WagmiConfig, useAccount } from "wagmi";
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc";
