@@ -28,6 +28,7 @@
     "wagmi": "^0.5.9",
     "web-vitals": "^2.1.4",
     "react-spinners": "^0.13.4",
+    "react-redux": "^7.2.4",
     "redux": "^4.1.1",
     "redux-thunk": "^2.3.0",
     "sass": "^1.58.1",
