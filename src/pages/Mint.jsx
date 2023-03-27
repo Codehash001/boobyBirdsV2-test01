@@ -130,9 +130,9 @@ const incrementMintAmount = () => {
       
           <div className='mintMainContainer'>
             <div className='navCointainer font-Besty'>
-              <a href='#'><h4>Home</h4></a>
+              <a className='navItem' href='/'><h4>Home</h4></a>
               <img className="logo" src='config/images/logo.png'/>
-              <a href='#'><h4>Mint</h4></a>
+              <a className='navItem' href='/mint#mint'><h4>Mint</h4></a>
             </div>
 
             <div className="video_wrapper">
@@ -152,7 +152,7 @@ const incrementMintAmount = () => {
             </div>
           </div>
 
-            <div className='MintContainer'>
+            <div className='MintContainer' id="mint">
               <h5 className='mint_date'>MINT DATE: 29th March 2023. STAY TUNED!</h5>
               <div className='inn_mint_wrapper'>
               <img className="gif" src='config/images/BoobyB.gif'/>

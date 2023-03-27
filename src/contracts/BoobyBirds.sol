@@ -138,7 +138,7 @@ contract BoobyBirds is ERC721A, Ownable, ReentrancyGuard, DefaultOperatorFiltere
         require(_numberMinted(_msgSender()) + tokens <= MaxperWallet_PublicMint + MaxperWallet_Whitelistmint, " Max NFTs Per Wallet exceeded");
     }
     
-    if (!OGListedWallet || !WhitelistedWallet ){
+    if (!OGListedWallet && !WhitelistedWallet ){
     	require(_numberMinted(_msgSender()) + tokens <= MaxperWallet_PublicMint , " Max NFTs Per Wallet exceeded");
     }
     
