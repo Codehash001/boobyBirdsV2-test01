@@ -130,9 +130,9 @@ const incrementMintAmount = () => {
       
           <div className='mintMainContainer'>
             <div className='navCointainer font-Besty'>
-              <a href='#'><h1>Home</h1></a>
+              <a href='#'><h4>Home</h4></a>
               <img className="logo" src='config/images/logo.png'/>
-              <a href='#'><h1>Mint</h1></a>
+              <a href='#'><h4>Mint</h4></a>
             </div>
 
             <div className="video_wrapper">
@@ -153,24 +153,24 @@ const incrementMintAmount = () => {
           </div>
 
             <div className='MintContainer'>
-              <h2 className='mint_date'>MINT DATE: 29th March 2023. STAY TUNED!</h2>
+              <h5 className='mint_date'>MINT DATE: 29th March 2023. STAY TUNED!</h5>
               <div className='inn_mint_wrapper'>
               <img className="gif" src='config/images/BoobyB.gif'/>
               <div className='mintSection'>
-                <h2> <span>Minting is Live!</span></h2>
-                <h2 className='mintState'>{isOGstate && isValidOGUser && numberMinted < config.MAX_MINT_OG ? 'OG Mint' : isWLState && isValidWLUser && numberMinted < config.MAX_MINT_WHITELIST ? 'WhiteListed Sale' : isPublicState ?'PublicSale': ''}</h2>
-                <h3> {totalMinted} / 3100 </h3>
+                <h5> <span>Minting is Live!</span></h5>
+                <h5 className='mintState'>{isOGstate && isValidOGUser && numberMinted < config.MAX_MINT_OG ? 'OG Mint' : isWLState && isValidWLUser && numberMinted < config.MAX_MINT_WHITELIST ? 'WhiteListed Sale' : isPublicState ?'PublicSale': ''}</h5>
+                <h6> {totalMinted} / 3100 </h6>
                 {/* + and - buttons */}
                 <div className="incButtonContainer"> 
                 <svg onClick={decrementMintAmount} xmlns="http://www.w3.org/2000/svg" className="SVG" viewBox="0 0 24 24" fill="000"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm5 11H7v-2h10v2z"></path></svg>
                 <h1 className="mintAmount">{mintAmount}</h1>
                 <svg onClick={incrementMintAmount} xmlns="http://www.w3.org/2000/svg" className="SVG" viewBox="0 0 24 24" fill="000"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"></path></svg>
                 </div>
-                <h4>Max Mint Amount: {maxMintAmount}</h4>
+                <h6>Max Mint Amount: {maxMintAmount}</h6>
                 <div className="costDiv">
-                  <h4>
+                  <h6>
                     <span>Cost = {Number.parseFloat(cost * mintAmount).toFixed(4)} ETH + Gas</span>
-                  </h4>
+                  </h6>
                 </div>
                 <div className='buttonContainer'>
                   <ConnectButton />
@@ -179,9 +179,9 @@ const incrementMintAmount = () => {
                     }>{isMinting ? 'Busy...' : 'Mint'}</button> : <></>}
                 </div>
                 {status && success ?
-                (<div className='statusSuc'><h4>{status}</h4> </div>) :
+                (<div className='statusSuc'><h6>{status}</h6> </div>) :
                 status && !success ?
-                (<div className='statusFail'><h4>{status}</h4> </div>):
+                (<div className='statusFail'><h6>{status}</h6> </div>):
                 <></>
                 }                                             
               </div>

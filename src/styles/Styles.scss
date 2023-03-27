@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 @font-face {
   font-family: "Besty";
@@ -1057,7 +1058,6 @@ div {
 .mintMainContainer{
     overflow-x: hidden;
     background-color: rgb(50, 50, 241);
-  font-family: 'Roboto Condensed', sans-serif;
     
 }
 .navCointainer{
@@ -1133,6 +1133,7 @@ div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .mint_date{
@@ -1251,6 +1252,29 @@ padding: 0px 36px;
 border-radius: 0.5rem;
 border: 1px solid red;
 }
+
+h4{
+    font-size: 30px;
+    color: white;
+}
+
+h5{
+  font-size: 28px;
+  font-weight: 600;
+
+}
+
+
+h5 span {
+  font-size: 36px;
+
+}
+
+h6{
+  font-size: 22px;
+
+}
+
 
 /* Collapsible */
 .switch{
