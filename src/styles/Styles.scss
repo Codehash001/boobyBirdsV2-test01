@@ -1184,11 +1184,15 @@ div {
 
 .mintState {
  color: purple ;
- margin-top: -10px;
+ margin-top: 15px;
+}
+
+.totalMinted{
+ margin-top: 30px;
 }
 
 .incButtonContainer{
-  margin-top: 26px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1213,11 +1217,17 @@ div {
   align-items: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .costDiv h4 span {
   color: purple ;
+  padding: 10px 10px;
+}
+
+.maxMint{
+margin-top: 30px;
 }
 
 .mintButton{
@@ -1274,7 +1284,6 @@ h5 span {
 h6{
   font-size: 25px;
   font-weight: 500;
-  margin: 0px 12px;
   
 
 }
