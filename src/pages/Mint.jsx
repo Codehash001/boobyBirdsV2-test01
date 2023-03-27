@@ -128,7 +128,7 @@ const incrementMintAmount = () => {
   return (
     <>
       
-          <div className='mainContainer'>
+          <div className='mintMainContainer'>
             <div className='navCointainer font-Besty'>
               <a href='#'><h1>Home</h1></a>
               <img className="logo" src='config/images/logo.png'/>

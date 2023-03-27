@@ -25,8 +25,10 @@ body{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.mainContainer{
+.mintMainContainer{
     overflow-x: hidden;
+    background-color: rgb(50, 50, 241);
+  font-family: 'Roboto Condensed', sans-serif;
     
 }
 .navCointainer{
