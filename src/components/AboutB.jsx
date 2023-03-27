@@ -26,7 +26,6 @@ const AboutB = ({ open = false, isToggled, onToggle }) => {
 
   const [mutedVid2, setMutedVid2] = useState(true);
   const handleMutedVid2 = ()=>{
-    video2.muted = !video2.muted;
     setMutedVid2(!mutedVid2);
   }
 

@@ -11,7 +11,6 @@ const About = ({ open = false, isToggled, onToggle }) => {
    // unmute vid
    const [mutedVid, setMutedVid] = useState(true);
    const handleMutedVid = ()=>{
-     video.muted = !video.muted;
      setMutedVid(!mutedVid);
    }
  

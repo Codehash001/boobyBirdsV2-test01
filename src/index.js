@@ -49,17 +49,6 @@ const wagmiClient = createClient({
   provider
 });
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <div>Hello world!</div>,
-  },
-
-  {
-    path: "/mint",
-    element: <Mint/>,
-  },
-]);
 
 
 ReactDOM.render(
