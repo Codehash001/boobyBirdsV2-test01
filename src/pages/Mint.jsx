@@ -163,7 +163,7 @@ const incrementMintAmount = () => {
                 {/* + and - buttons */}
                 <div className="incButtonContainer"> 
                 <svg onClick={decrementMintAmount} xmlns="http://www.w3.org/2000/svg" className="SVG" viewBox="0 0 24 24" fill="000"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm5 11H7v-2h10v2z"></path></svg>
-                <h1 className="mintAmount">{mintAmount}</h1>
+                <h5 className="mintAmount">{mintAmount}</h5>
                 <svg onClick={incrementMintAmount} xmlns="http://www.w3.org/2000/svg" className="SVG" viewBox="0 0 24 24" fill="000"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"></path></svg>
                 </div>
                 <h6>Max Mint Amount: {maxMintAmount}</h6>
