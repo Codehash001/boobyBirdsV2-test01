@@ -1,34 +1,54 @@
 {
-  "name": "BB_nft_minting_dapp",
-  "homepage": ".",
-  "version": "1.0.0",
-  "description": "DAPP to mint BB NFTs",
+  "name": "minting-page",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@alch/alchemy-web3": "^1.4.6",
     "@emailjs/browser": "^3.7.0",
-    "ethers": "^5.6.9",
-    "firebase-tools": "^10.7.2",
-    "react": "^17.0.2",
-    "react-burger-menu": "^3.0.6",
-    "react-collapsible": "^2.9.0",
-    "react-dom": "^17.0.2",
-    "react-redux": "^7.2.4",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@rainbow-me/rainbowkit": "0.4.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "dotenv": "^16.0.3",
+    "erc721a": "^4.2.3",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.11.2",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.32",
+    "operator-filter-registry": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "5.0.1",
+    "wagmi": "^0.5.9",
+    "web-vitals": "^2.1.4",
     "react-spinners": "^0.13.4",
     "redux": "^4.1.1",
     "redux-thunk": "^2.3.0",
     "sass": "^1.58.1",
     "styled-components": "^5.3.0",
-    "web-vitals": "^1.0.1",
-    "web3": "^1.5.1",
-    "web3-eth-contract": "^1.5.2"
+    "react-burger-menu": "^3.0.6",
+    "react-collapsible": "^2.9.0",
+    "firebase-tools": "^10.7.2"
   },
-  "author": "nftmaster",
-  "license": "MIT",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+   
+"scripts": { 
+	"start": "react-app-rewired start", 
+  "build": "react-app-rewired build", 
+  "test": "react-app-rewired test", 
+  "eject": "react-scripts eject" 
+ },
+
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -41,5 +61,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
   }
 }
