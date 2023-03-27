@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: "Besty";
+    src: local("'Besty'"), url(../styles/Besty.ttf);
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "Kiddos";
+    src: local("'Kiddos-Demo'"), url(../styles/Kiddos-Demo.ttf);
+    font-weight: normal;
+  }
+
+  .font-Kiddos{
+    font-family: "Kiddos";
+  }
+
+  .font-Besty{
+    font-family: "Besty";
+    
+  }
+
+body{
+  background-color: rgb(50, 50, 241);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mainContainer{
+    overflow-x: hidden;
+    
+}
+.navCointainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+h1{
+    font-size: 30px;
+    color: white;
+}
+
+.logo{
+  height: 150px;
+  width: auto;
+  margin: -20px 20px;
+}
+
+.video_wrapper{
+  margin-top: -60px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  
+}
+
+.inn_video_wrapper{
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  justify-content: center;
+  position: relative;
+}
+
+
+.mint_soundlink {
+  background-color: rgba(242, 103, 224, 0.8);
+  border-radius: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute ;
+  top: 60px;
+  right: 40px ;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.soundlink_button {
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.soundlink_button:hover{
+  cursor: pointer;
+}
+.soundlink_button img{
+  width: 50px; 
+  height: 50px;
+  cursor: pointer;
+}
+.VideoTag{
+  width: 100%;
+  max-width: 1000px;
+  padding: 50px;
+  
+  
+}
+
+.MintContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mint_date{
+  display: inline-block;
+  width: auto;
+  padding: 18px;
+  border: 1px;
+  border-radius: 0.5rem;
+  background-color: rgb(243, 141, 158);
+  font-weight: 600;
+  
+}
+
+.inn_mint_wrapper{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.gif{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px dotted black;
+}
+
+.mintSection{
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: inline-block;
+  padding: 20px  50px;
+  border: 4px solid purple;
+  border-radius: 0.5rem;
+  background-color: pink;
+  text-align: center;
+}
+
+.buttonContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: 600;
+
+}
+
+
+h2 span {
+  font-size: 40px;
+
+}
+
+h3{
+  font-size: 25px;
+
+}
+
+h4{
+  font-size: 20px;
+
+}
+
+.mintState {
+ color: purple ;
+ margin-top: -10px;
+}
+
+.incButtonContainer{
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SVG{
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  
+}
+
+.mintAmount{
+  margin: 0px 25px;
+  font-weight: bolder;
+  color: purple;
+}
+
+.costDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.costDiv h4 span {
+  color: purple ;
+}
+
+.mintButton{
+  background: blue;
+  margin-top: 36px;
+  padding: 8px 36px;
+  border: 1px;
+  border-radius: 0.5rem;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+
+
+.mintButton:hover{
+  background: white;
+  cursor: pointer;
+  color: black;
+}
+
+.statusSuc {
+margin-top: 36px;
+padding: 0px 10px;
+border-radius: 0.5rem;
+border: 1px solid green;
+}
+
+.statusFail{
+margin-top: 10px;
+padding: 0px 36px;
+border-radius: 0.5rem;
+border: 1px solid red;
+}
+
